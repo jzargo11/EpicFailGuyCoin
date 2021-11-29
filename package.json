@@ -1,7 +1,7 @@
 {
   "name": "Epic Fail Guy Coin",
   "version": "0.1.0",
-  "homepage": "http://jzargo11.github.io/Epic-Fail-Guy-Coin",
+  "homepage": "http://epicfailguy.io",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
