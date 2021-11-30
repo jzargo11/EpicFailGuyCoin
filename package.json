@@ -1,7 +1,7 @@
 {
   "name": "Epic Fail Guy Coin",
   "version": "0.1.0",
-  "homepage": "http://epicfailguycoin.io",
+  "homepage": "https://epicfailguycoin.io",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
@@ -24,8 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
