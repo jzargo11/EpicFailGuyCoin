@@ -1,7 +1,7 @@
 {
   "name": "Epic Fail Guy Coin",
   "version": "0.1.0",
-  "homepage": "https://epicfailguycoin.io",
+  "homepage": "http://epicfailguycoin.io",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
