@@ -32,8 +32,8 @@ class Main extends Component {
           <li>Initial supply of 21,000,000 EFGC</li>
           <li>%1 Burn on transactions</li>
           <li>Burns until 100,000 EFGC remain</li>
-          <li>10,000,000 EFGC to be sold on public exchanges</li>
-          <li>10,000,000 EFGC allocated to private sale at fixed rate of 0.0002 ETH </li>
+          <li>10,000,000 EFGC to be sold on public exchange</li>
+          <li>10,000,000 EFGC allocated to direct sale at fixed rate of 0.0002 ETH </li>
                
         </ul>
 
@@ -48,7 +48,7 @@ class Main extends Component {
 
         <br></br><br></br><br></br>
 
-        <h3><b> Private Sale Coming Soon</b></h3>
+        <h3><b> Direct Sale Coming Soon</b></h3>
         <br></br>
 
 
