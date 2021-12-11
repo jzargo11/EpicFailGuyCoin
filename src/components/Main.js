@@ -41,27 +41,37 @@ return (
         <img src = {EfgPic} />
         
         <br></br> <br></br> <br></br>
+
+        <p> <b>Contract Address:</b> 0xA559a766987fcDf42fffef6Bfeea37C7a5A62dc5 </p>
+        
+        <br></br><br></br>
        
         <h1><b> Tokenomics </b></h1>
         <ul>
           <li>Initial supply of 21,000,000 EFGC</li>
           <li>%1 Burn on transactions</li>
           <li>Burns until 100,000 EFGC remain</li>
-          <li>10,000,000 EFGC to be sold on public exchanges</li>
-          <li>10,000,000 EFGC allocated to private sale at fixed rate of 0.0002 ETH </li>
+          <li>10,000,000 EFGC to be sold on public exchange</li>
+          <li>10,000,000 EFGC allocated to direct sale at fixed rate of 0.0002 ETH </li>
                
         </ul>
 
         
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br>
         
 
+
         <h1><b> DEFLATIONARY! </b></h1>
+
+
 
         <img src = {EfgGif} />
 
         <br></br><br></br><br></br>
+
+        
+               
 
         <h3><b> Buy EFGC Direct Below!</b></h3>
         <br></br>
