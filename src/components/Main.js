@@ -58,7 +58,7 @@ return (
 
         
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        <br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         
 
 
@@ -79,7 +79,8 @@ return (
     <div className="card mb-4" >
       <div className="card-body">
 
-        <div className="d-flex justify-content-between mb-3"> 
+        <div className="d-flex justify-content-between mb-3">
+         
           <span className="text-muted"> Connect MetaMask Wallet to Buy EFGC &gt; &gt; &gt;</span>     
             <button className="btn btn-light"
               onClick={(event) => {

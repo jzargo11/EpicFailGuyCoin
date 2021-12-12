@@ -30,8 +30,13 @@ class BuyForm extends Component {
             if(tokenData) {
               const token = new web3.eth.Contract(Token.abi, tokenData.address)
               this.setState({ token })
+              
               let tokenBalance = await token.methods.balanceOf("0xdaC69EE509436308ac1E6C18565C9ff88a297252").call()
               this.setState({ tokenBalance: tokenBalance.toString() })
+
+              let totalBurned = await token.methods.totalBurned().call()
+              this.setState({ totalBurned: totalBurned.toString() })
+
             } else {
               window.alert('Token contract not deployed to detected network.')
             }
@@ -82,6 +87,7 @@ class BuyForm extends Component {
       ethSwap: {},
       ethBalance: '0',
       tokenBalance: '0',
+      totalBurned:'0',
       output: '0',
       loading: false
     }
@@ -90,6 +96,10 @@ class BuyForm extends Component {
 
   render() {
     return (
+
+          
+           
+
 
           <form className="mb-3" onSubmit={(event) => {
               event.preventDefault()
@@ -103,7 +113,9 @@ class BuyForm extends Component {
             }>
             
 
+
             <div>
+            
               <label className="float-left"><b>ETH</b></label>
               <span className="float-right text-muted">
                 User Balance: {window.web3.utils.fromWei(this.state.ethBalance, 'Ether')}
@@ -134,6 +146,7 @@ class BuyForm extends Component {
               <label className="float-left"><b>EFGC</b></label>
               <span className="float-right text-muted">
                 Remaining Supply: {window.web3.utils.fromWei(this.state.tokenBalance, 'Ether')}
+
               </span>
             </div>
             <div className="input-group mb-2">
@@ -154,8 +167,11 @@ class BuyForm extends Component {
             <div className="mb-5">
               <span className="float-left text-muted">Exchange Rate</span>
               <span className="float-right text-muted"> 1 EFGC - %1 Burn Fee  = 0.0002 ETH </span>
+
             </div>
             <button type="submit" className="btn btn-primary btn-block btn-lg">BUY!</button>
+            <br></br><br></br>
+            <p3><b>Total EFGC Burned:</b> {window.web3.utils.fromWei(this.state.totalBurned, 'Ether')}</p3>
           </form>
 
     );

@@ -75,6 +75,9 @@ class LoadForm extends Component {
               <span className="float-right text-muted"> 1 EFGC - %1 Burn Fee  = 0.0002 ETH </span>
             </div>
             <button type="submit" className="btn btn-primary btn-block btn-lg">BUY!</button>
+            <br></br><br></br>
+            <p2><b>Total EFGC Burned:</b> Connect MetaMask to Show Data</p2>
+
           </form>  
 
             
