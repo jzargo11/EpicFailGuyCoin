@@ -75,8 +75,10 @@ return (
                
 
         <h3><b> Buy EFGC Direct Below!</b></h3>
-        <br></br>
 
+        <br></br>
+        <p2>Please check Uniswap price before using this app </p2>
+        <br></br>
     <div className="card mb-4" >
       <div className="card-body">
 
