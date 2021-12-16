@@ -51,15 +51,16 @@ return (
           <li>Initial supply of 21,000,000 EFGC</li>
           <li>%1 Burn on transactions</li>
           <li>Burns until 100,000 EFGC remain</li>
-          <li>10,000,000 EFGC to be sold on public exchange</li>
+          <li>11,000,000 EFGC to be traded on Uniswap</li>
           <li>10,000,000 EFGC allocated to direct sale at fixed rate of 0.0002 ETH </li>
+          <li>Entire EFGC supply allocated to either Uniswap or the direct buy contract 0xdaC69EE509436308ac1E6C18565C9ff88a297252 (EFGC creator can not rug the market) </li>
                
         </ul>
 
         
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        
+        <br></br><br></br><br></br><br></br><br></br>
 
 
         <h1><b> DEFLATIONARY! </b></h1>
