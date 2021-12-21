@@ -51,7 +51,7 @@ return (
           <li>Initial supply of 21,000,000 EFGC</li>
           <li>%1 Burn on transactions</li>
           <li>Burns until 100,000 EFGC remain</li>
-          <li>11,000,000 EFGC to be traded on Uniswap</li>
+          
               
         </ul>
 
@@ -69,14 +69,9 @@ return (
 
         <br></br><br></br><br></br>
 
-        
+    
                
 
-        <h3><b> Buy EFGC Direct Below!</b></h3>
-
-        <br></br>
-        <p2>Please check Uniswap price before using this app </p2>
-        <br></br>
 
 
 </div>
