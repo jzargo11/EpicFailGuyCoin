@@ -77,29 +77,7 @@ return (
         <br></br>
         <p2>Please check Uniswap price before using this app </p2>
         <br></br>
-    <div className="card mb-4" >
-      <div className="card-body">
 
-        <div className="d-flex justify-content-between mb-3">
-         
-          <span className="text-muted"> Connect MetaMask Wallet to Buy EFGC &gt; &gt; &gt;</span>     
-            <button className="btn btn-light"
-              onClick={(event) => {
-
-              this.setState({ currentForm: 'buy' })
-              
-              }}
-            >
-            Connect MetaMask
-          </button>
-        </div>
-
-        {content}
-        
-        
-      </div>
-        
-    </div>
 
 </div>
 
