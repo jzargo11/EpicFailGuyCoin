@@ -42,7 +42,7 @@ return (
         
         <br></br> <br></br> <br></br>
 
-        <p>  </p>
+        <p> <b>Contract Address:</b> 0xA559a766987fcDf42fffef6Bfeea37C7a5A62dc5 </p>
         
         <br></br><br></br>
        
@@ -51,9 +51,16 @@ return (
           <li>Initial supply of 21,000,000 EFGC</li>
           <li>%1 Burn on transactions</li>
           <li>Burns until 100,000 EFGC remain</li>
-          
-              
+          <li>11,000,000 EFGC to be traded on Uniswap</li>
+          <li>10,000,000 EFGC allocated and locked to direct sale contract at fixed rate of 0.0002 ETH </li>
+          <li>Entire EFGC supply allocated to either Uniswap or the direct buy contract 0xdaC69EE509436308ac1E6C18565C9ff88a297252 (EFGC creator can not rug the market) </li>
+
+
         </ul>
+
+
+    
+        
 
         
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
@@ -68,7 +75,37 @@ return (
         <img src = {EfgGif} />
 
         <br></br><br></br><br></br>
+        
+        <h3><b> Buy EFGC Direct Below!</b></h3>
 
+        <br></br>
+        <p2>Please check Uniswap price before using this app </p2>
+        <br></br>
+
+
+    <div className="card mb-4" >
+      <div className="card-body">
+
+        <div className="d-flex justify-content-between mb-3">
+
+          <span className="text-muted"> Connect MetaMask Wallet to Buy EFGC &gt; &gt; &gt;</span>     
+            <button className="btn btn-light"
+              onClick={(event) => {
+
+              this.setState({ currentForm: 'buy' })
+
+              }}
+            >
+            Connect MetaMask
+          </button>
+        </div>
+
+        {content}
+
+
+      </div>
+
+    </div>
     
                
 
